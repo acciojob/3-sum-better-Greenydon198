@@ -1,7 +1,7 @@
 function threeSum(arr, target) {
 // write your code here
 	arr.sort();
-	let diff = Integer.MAX_VALUE;
+	let diff = 1000000000000;
 
 	for(let i=0;i<arr.length-2;i++){
 		let j = i+1;
