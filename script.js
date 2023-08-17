@@ -13,7 +13,6 @@ function threeSum(arr, target) {
 			else k--;
 			if(Math.abs(diff)>Math.abs(target-sum))
 				diff = target-sum;
-				// System.out.println(diff);
 		}
 	}
 	return target-diff;
